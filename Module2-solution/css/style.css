@@ -3,8 +3,8 @@
   margin:0;
   padding:0;
   font-size:14px;
-
 }
+
 h1{
 width:100%;
 text-align: center;
@@ -13,16 +13,19 @@ font-weight: bold;
 margin-top: 10px;
 margin-bottom: 10px;
 }
+
 .row{
 	width:100%;
   display: inline-block;
   padding-left: 10px
 
 }
+
 .box{
   padding-right: 10px;
   padding-bottom: 10px;
 }
+
 .container{
  float: left;
  background-color:#b0b0b0;
@@ -40,12 +43,15 @@ margin-bottom: 10px;
     font-weight: bold;
     border: 1px solid;
 }
+
 #title1{
   background-color: #e45f9f;
 }
+
 #title2{
   background-color: #0fab95;
 }
+
 #title3{
   background-color: #e4cb37;
 }
@@ -97,6 +103,7 @@ margin-bottom: 10px;
     width: 100%;
   }
 }
+
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
