@@ -10,9 +10,18 @@ body {
   margin-bottom: 0;
 }
 
-.navbar-brand{
-	margin: 10px 0 0 0;
+#header-nav .container{
+	margin:0;
+	padding: 0;
+}
+
+#header-nav .navbar-brand{
+	margin: 10px 0 0 30px;
     padding: 0;
+}
+
+#header-nav .navbar-collapse{
+	padding: 0;
 }
 .navbar-brand a h1{
 	color: black;
@@ -21,6 +30,16 @@ body {
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+}
+
+.cont1{
+	margin: 0;
+	padding: 0;
+    width: 100%;
+}
+
+.row1{
+	margin:0 30px 0 30px;
 }
 
 .cont1 h2{
@@ -34,6 +53,7 @@ body {
 .row1 h3{
 	text-align: center;
 	font-size: 1.25em;
+	margin-bottom: 30px;
 }
 
 .sections{
@@ -47,21 +67,32 @@ body {
 	font-size: 1em;
 }
 .navbar-toggle{
-	margin-right: 0;
+	margin: 10px 30px 0 0;
+}
+#nav-list{
+	margin: 0;
+}
+#nav-list li{
+	border-bottom: 1px solid #E1E1E1;
+	background-color: #f2f2f2;
 }
 
 #nav-list a{
 	color: #000;
 	text-align: center;
 }
-.linkMenu:hover,#linkMenu:hover{
-	background-color: red;
-	z-index: 0;
-}
 
 @media (max-width: 767px){
-	.row1{
-		margin-right: 0;
-		margin-left: 0;
+	.navbar-brand a h1{
+		font-size: 1.5em;
+		margin-top:5px;
 	}
+	.cont h2{
+		font-size: 1.3em;
+	}
+	.row1 h3{
+		font-size: 1.15em;
+	}
+	
+	
 }
