@@ -76,7 +76,7 @@ body {
 	border-bottom: 1px solid #E1E1E1;
 	background-color: #d4d2d2;
 }
-#nav-list li:nth-child(3){
+#nav-list #sushi{
 	border-bottom: none;
 }
 
