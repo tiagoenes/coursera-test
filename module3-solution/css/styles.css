@@ -1,72 +1,73 @@
 body {
   font-size: 14px;
-  color: #fff;
+  color: black;
   background-color: #fff;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Titillium Web', sans-serif;
+
 }
+
 #header-nav {
   border-radius: 0;
   border-bottom: 1px solid #b2b2b2;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
-
 #header-nav .container{
-	margin:0;
-	padding: 0;
+	margin: 0;
+    padding: 0;
 }
 
 #header-nav .navbar-brand{
 	margin: 10px 0 0 30px;
-    padding: 0;
-}
-
-#header-nav .navbar-collapse{
-	padding: 0;
+	padding: 0
 }
 .navbar-brand a h1{
 	color: black;
 	margin:0;
-	font-size: 1.75em;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-
-.cont1{
-	margin: 0;
 	padding: 0;
-    width: 100%;
+	font-size: 1.75em;
+
 }
 
-.row1{
-	margin:0 30px 0 30px;
+#maintContent{
+	/**
+	*/
+	width: 100%;
+	margin: 0;
+    padding: 0 5px 0 5px;
+	/**
+	
+	margin: 0 30px 0 30px;
+	padding:0; */
 }
-
-.cont1 h2{
+.contTitle h2{
 	color: #000;
-	margin-top: 20px;
 	margin-bottom: 30px;
 	text-align: center;
 	font-size: 1.5em;
 }
+.contBox{
+	margin-bottom: 30px;
+	padding: auto;
+}
+.contBox .insideCols .contentBox span{
+	
+}
+.contBox .insideCols .contentBox span a{
+	white-space: nowrap;
+}
+.insideCols{
+	border: 1px solid black;
+	background-color: #eaeaea ;
+	padding-bottom: 10px
+}
 
-.row1 h3{
+.insideCols h3{
 	text-align: center;
 	font-size: 1.25em;
 	margin-bottom: 30px;
+	padding-bottom: 10px
 }
 
-.sections{
-	color: #000;
-	border: 1px solid #b2b2b2;
-	margin-bottom: 30px;
-	background-color: #eaeaea ;
-}
-
-.sections .cols{
-	font-size: 1em;
-	padding-bottom: 10px;
-}
 .navbar-toggle{
 	margin: 10px 30px 0 0;
 }
@@ -85,18 +86,22 @@ body {
 	color: #000;
 	text-align: center;
 }
-
+#collapsable-nav{
+	padding: 0;
+}
 @media (max-width: 767px){
 	.navbar-brand a h1{
 		font-size: 1.5em;
 		margin-top:5px;
 	}
-	.cont h2{
+	.contBox h2{
 		font-size: 1.3em;
 	}
-	.row1 h3{
+	.insideCols h3{
 		font-size: 1.15em;
 	}
-	
+	.contBox{
+		padding: 0 30px;
+	}
 	
 }
